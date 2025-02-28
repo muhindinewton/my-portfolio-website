@@ -1,11 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="styles.css" /> 
-    <title>My Personal Website</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <script src="script.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newton - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="overlay">
+            <h1>Newton</h1>
+            <h2>I Am a <strong>Front-End Web Designer</strong></h2>
+            <p>Crafting modern and interactive web experiences.</p>
+            <a href="#work" class="btn">Explore My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate front-end web designer skilled in HTML, CSS, and JavaScript, bringing creativity to life.</p>
+        <a href="#contact" class="btn">Hire Me</a>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <p>HTML</p>
+                <div class="progress"><div class="progress-bar" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="progress"><div class="progress-bar" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="progress"><div class="progress-bar" style="width: 75%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work">
+        <h2>My Work</h2>
+        <div class="gallery">
+            <div class="project">  
+                <img src="https://tinyurl.com/2tk435rh" alt="Project 1">
+                <h4>Project 1</h4>
+            </div>
+            <div class="project">
+                <img src="https://tinyurl.com/2tk435rh" alt="Project 2">
+                <h4>Project 2</h4>
+            </div>
+            <div class="project">
+                <img src="https://tinyurl.com/2tk435rh" alt="Project 3">
+                <h4>Project 3</h4>
+            </div>
+            <div class="project">
+                <img src="https://tinyurl.com/2tk435rh" alt="Project 4">
+                <h4>Project 4</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Services</h2>
+        <div class="services-container">
+            <div class="service">Web Design</div>
+            <div class="service">UI/UX Design</div>
+            <div class="service">SEO</div>
+            <div class="service">Debugging</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Newton. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
 </html>
